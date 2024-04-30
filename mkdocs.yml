@@ -1,6 +1,10 @@
 site_name: Retrofit
 theme:
  name: material
+ language: en
+ favicon: material/server/network
+ icon:
+  logo:
  features:
    - navigation.tabs
    - navigation.sections
@@ -11,13 +15,18 @@ theme:
    - content.tabs.link
    - content.code.annotation
    - content.code.copy
+
+ plugins:
+   - typeset
+   - search
+
  palette:
   
-  #toggle for dark mode
+ #toggle for dark mode
    - scheme: slate
      primary: black
      accent: deep orange
-     toggle:
+     toggle: 
        icon: material/weather-night
        name: Switch to light mode
 
@@ -29,6 +38,31 @@ theme:
        icon: material/weather-sunny
        name: Switch to dark mode
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - toc:
+     permalink: true
+ 
+copyright: Copyright &copy; 2024 Judith Etugbo
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/Nickyshe
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/judith_etugbo?t=eqQWuj8uDTQMtF5L1UPOVA&s=09
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/etugbo-judith-984545236
 
-
-   
