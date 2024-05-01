@@ -2,7 +2,6 @@
 
 This is a replication and modified version of the Retrofit documentation site built with MKDOCS and deployed with Cloudflare pages.
 
-[Link to deployed site](https://9a15f0a2.retrofit-docs.pages.dev/)
 
 
 1. Download [Python](https://python.org/downloads/) and install it
@@ -15,6 +14,14 @@ This is a replication and modified version of the Retrofit documentation site bu
    pip --version
    ```
 4. Clone repository
+5. Run the following command after making your changes
+   ```
+   mkdocs build
+
+   mkdocs serve 
+   ```
+
+
 
 See [link](https://developers.cloudflare.com/pages/framework-guides/deploy-an-mkdocs-site/) for deploying with Cloudflare pages
 
