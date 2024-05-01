@@ -7,7 +7,6 @@ theme:
   logo:
  features:
    - toc.integrate
-   - navigation.indexes
    - navigation.tabs
    - navigation.sections
    - navigation.top
