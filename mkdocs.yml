@@ -6,7 +6,6 @@ theme:
  icon:
   logo:
  features:
-  # - toc.integrate
    - navigation.tabs
    - navigation.indexes
    - navigation.sections
@@ -80,6 +79,7 @@ nav:
       - Setting Up Retrofit: 'setup.md'
       - API Declaration with Annotation: 'api-declaration.md'
       - Retrofit Configuration: 'retrofit-configuration.md'
+  - Resources: 'resources.md'
   - About: 
     - Contributing: 'contributing.md'
     - License: 'license.md'

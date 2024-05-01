@@ -112,6 +112,7 @@ Call<List<Widget>> widgetList();
 @GET("users/{username}")
 Call<User> getUser(@Path("username") String username);
 ```
+Headers that need to be added to every request can be specified using an [OkHttp interceptor](https://square.github.io/okhttp/features/interceptors/).
 
 ## Synchronous vs. Asynchronous Calls
 
