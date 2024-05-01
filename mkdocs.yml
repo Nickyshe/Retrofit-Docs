@@ -1,5 +1,9 @@
 site_name: Retrofit
-site_url: https://ea55eff1.retrofit-docs.pages.dev/
+site_url: https://06a344bc.retrofit-docs.pages.dev/
+site_author: Judith Etugbo
+
+repo_name: Retrofit-Docs
+repo_url: https://github.com/Nickyshe/Retrofit-Docs.git
 theme:
  name: material
  language: en
