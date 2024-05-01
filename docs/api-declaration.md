@@ -74,11 +74,11 @@ Call<User> createUser(@Body User user);
 Retrofit also supports sending data in other formats:
 
 * **Form-encoded data:** Use the `@FormUrlEncoded` annotation on the method and `@Field` annotations on individual parameters to specify key-value pairs.
+
 ```java
 @FormUrlEncoded
 @POST("user/edit")
 Call<User> updateUser(@Field("first_name") String first, @Field("last_name") String last);
-
 ```
 
 * **Multipart requests:** Use the `@Multipart` annotation for methods that handle data with multiple parts, like file uploads. Each part is declared with the `@Part` annotation.
@@ -122,12 +122,14 @@ Retrofit calls can be executed either synchronously (blocking the current thread
 Retrofit offers special features for Kotlin development:
 
 * **Suspend functions:** Interface methods can be suspend functions returning a `Response` object directly. This allows asynchronous execution while suspending the current function.
+
 ```java
 @GET("users")
 suspend fun getUser(): Response<User>
 ```
 
 * **Direct body return:** Suspend functions can also return the response body directly. If the response code is not successful (2XX), an `HttpException` containing the response will be thrown.
+
 ```java
 @GET("users")
 suspend fun getUser(): User

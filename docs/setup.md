@@ -9,8 +9,8 @@ Retrofit simplifies making network calls in Android applications. Here's a step-
       // Other dependencies
       implementation 'com.squareup.retrofit2:retrofit:2.9.0'
       implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-  }
-  ```
+      }
+```
 Replace `2.9.0` with the latest stable version if needed (check Retrofit documentation for updates).
 
 Sync your project with Gradle to download the libraries.
