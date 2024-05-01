@@ -4,7 +4,7 @@ Retrofit simplifies making network calls in Android applications. Here's a step-
 - Open your project's `build.gradle` file (located in the `app` module).
 - Add the following dependencies in the `dependencies` block:
 
-  ```Gradle
+```Gradle
   dependencies {
       // Other dependencies
       implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -42,7 +42,9 @@ GitHubService service = retrofit.create(GitHubService.class);
 Call<List<Repo>> repos = service.listRepos("octocat");
 ```
 
-This code creates a `Retrofit` instance with the base URL of the GitHub API. Then, it uses this instance to create a `GitHubService` object. Finally, you can call the `listRepos` method on the service, passing the username "octocat" as an argument. This initiates a network request to retrieve the list of repositories for that user.
+This code creates a `Retrofit` instance with the base URL of the GitHub API. Then, it uses this instance to create a `GitHubService` object.
+
+Finally, you can call the `listRepos` method on the service, passing the username "octocat" as an argument. This initiates a network request to retrieve the list of repositories for that user.
 
 ## Define an API Interface
 
@@ -68,7 +70,7 @@ Once you've defined the interface, Retrofit generates an object that implements 
 
 ## Key Features of Retrofit Annotations
 
-* **URL parameter replacement:** You can use placeholders in the URL to represent dynamic parts, like the username in the example.
+* **URL parameter replacement:** You can use placeholders in the URL to represent dynamic parts. 
 * **Query parameter support:** Annotations allow you to specify additional parameters that are appended to the URL as a query string.
 * **Object conversion:** Retrofit can automatically convert objects to JSON or other data formats for request bodies and parse responses back into your desired Java classes.
 * **Multipart request body and file upload:** Retrofit supports building complex requests with multiple parts, including file uploads.

@@ -18,11 +18,11 @@ You'll place the appropriate annotation at the beginning of your interface metho
 @GET("users/list")
 ```
 
-This tells Retrofit to make a GET request to the "/users/list" endpoint on the server.
+This tells Retrofit to make a GET request to the `"/users/list"` endpoint on the server.
 
 ## Adding Details with Query Parameters
 
-You can also include additional information in your request using query parameters. These are appended to the URL as a question mark (?) followed by key-value pairs separated by ampersands (&). In Retrofit, you can specify these directly in the URL within the annotation.
+You can also include additional information in your request using query parameters. These are appended to the URL as a question mark (?). In Retrofit, you can specify these directly in the URL within the annotation.
 
 For instance, you might want to retrieve a list of users sorted by descending order:
 
@@ -30,7 +30,7 @@ For instance, you might want to retrieve a list of users sorted by descending or
 @GET("users/list?sort=desc")
 ```
 
-This adds a query parameter named "sort" with the value "desc" to the request URL.
+This adds a query parameter named `"sort"` with the value `"desc"` to the request URL.
 
 
 ## URL Manipulation
@@ -44,7 +44,7 @@ For example:
 Call<List<User>> groupList(@Path("id") int groupId);
 ```
 
-Here, `@GET("group/{id}/users")` defines the URL pattern. When you call `groupList(123)`, Retrofit replaces `{id}` with the value `123`, resulting in a request to "group/123/users".
+Here, `@GET("group/{id}/users")` defines the URL pattern. When you call `groupList(123)`, Retrofit replaces `{id}` with the value `123`, resulting in a request to `"group/123/users"`.
 
 **Adding Query Parameters**
 
@@ -60,7 +60,6 @@ This example retrieves a list of users from group `groupId` sorted by the value 
 For complex scenarios with many query parameters, you can use a `Map<String, String>` annotated with `@QueryMap`.
 
 ## Sending Data in the Request Body
-
 You can include data in the request body using the `@Body` annotation. This is typically used for creating new resources on the server. The object you provide is automatically converted using a converter configured for your Retrofit instance. If no converter is specified, you can only use the `RequestBody` class.
 
 Here's an example of creating a new user:
