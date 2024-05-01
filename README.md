@@ -1,8 +1,8 @@
 ## Quick Start
 
-This is a replication and modified version of the Retrofit documentation site built with MKDOCS and deployed with Cloudflare pages
+This is a replication and modified version of the Retrofit documentation site built with MKDOCS and deployed with Cloudflare pages.
 
-[Link to deployed site](https://ec7e81d3.retrofit-docs.pages.dev/)
+[Link to deployed site](https://9a15f0a2.retrofit-docs.pages.dev/)
 
 
 1. Download [Python](https://python.org/downloads/) and install it
