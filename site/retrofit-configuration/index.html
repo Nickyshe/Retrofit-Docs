@@ -9,23 +9,25 @@
       
       
       
+        <link rel="prev" href="../api-declaration/">
       
-        <link rel="next" href="requirement/">
+      
+        <link rel="next" href="../contributing/">
       
       
-      <link rel="icon" href="material/server/network">
+      <link rel="icon" href="../material/server/network">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.19">
     
     
       
-        <title>What is Retrofit - Retrofit</title>
+        <title>Retrofit Configuration - Retrofit</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#benefits-of-retrofit" class="md-skip">
+        <a href="#converters" class="md-skip">
           Skip to content
         </a>
       
@@ -84,7 +86,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Retrofit" class="md-header__button md-logo" aria-label="Retrofit" data-md-component="logo">
+    <a href=".." title="Retrofit" class="md-header__button md-logo" aria-label="Retrofit" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -104,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              What is Retrofit
+              Retrofit Configuration
             
           </span>
         </div>
@@ -199,13 +201,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="." class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
           
   
   Home
@@ -219,11 +219,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="requirement/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../requirement/" class="md-tabs__link">
           
   
   Getting Started
@@ -241,7 +243,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="contributing/" class="md-tabs__link">
+        <a href="../contributing/" class="md-tabs__link">
           
   
   About
@@ -276,7 +278,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Retrofit" class="md-nav__button md-logo" aria-label="Retrofit" data-md-component="logo">
+    <a href=".." title="Retrofit" class="md-nav__button md-logo" aria-label="Retrofit" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -286,6 +288,74 @@
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What is Retrofit
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
@@ -311,132 +381,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    Home
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_1">
-            <span class="md-nav__icon md-icon"></span>
-            Home
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    What is Retrofit
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    What is Retrofit
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#benefits-of-retrofit" class="md-nav__link">
-    <span class="md-ellipsis">
-      Benefits of Retrofit:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#use-case" class="md-nav__link">
-    <span class="md-ellipsis">
-      Use Case
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -447,7 +395,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Getting Started
@@ -461,7 +409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="requirement/" class="md-nav__link">
+      <a href="../requirement/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -482,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="setup/" class="md-nav__link">
+      <a href="../setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -503,7 +451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-declaration/" class="md-nav__link">
+      <a href="../api-declaration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -521,10 +469,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="retrofit-configuration/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Retrofit Configuration
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -533,6 +499,42 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#converters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Converters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-converters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom Converters
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -592,7 +594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="contributing/" class="md-nav__link">
+      <a href="../contributing/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -613,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="license/" class="md-nav__link">
+      <a href="../license/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -649,24 +651,33 @@
                   
 
 
-  <h1>What is Retrofit</h1>
+  <h1>Retrofit Configuration</h1>
 
-<p>Retrofit is a powerful type-safe HTTP client for Android and Java applications developed by Square. It simplifies communication with web APIs by providing a clean and intuitive way to interact with them. </p>
-<h2 id="benefits-of-retrofit">Benefits of Retrofit:<a class="headerlink" href="#benefits-of-retrofit" title="Permanent link">&para;</a></h2>
+<p>Retrofit is the class through which your API interfaces are turned into callable objects. While Retrofit offers reasonable defaults, you can customize it for your project's specific requirements.</p>
+<h2 id="converters">Converters<a class="headerlink" href="#converters" title="Permanent link">&para;</a></h2>
+<p>By default, Retrofit can only deserialize HTTP bodies into OkHttp's <code>ResponseBody</code> type and it can only accept its <code>RequestBody</code> type for <code>@Body.</code></p>
+<p>Converters can be added to support other types. Sibling modules adapt popular serialization libraries for your convenience.</p>
 <ul>
-<li><strong>Automatic conversion:</strong> Retrofit seamlessly converts between JSON/XML data received from APIs and Java objects. This eliminates the need for manual parsing, saving you time and reducing the risk of errors.</li>
-<li><strong>Intuitive endpoints:</strong> Define API endpoints using annotations. These annotations clearly describe the HTTP method (GET, POST, etc.), URL path, and any additional parameters required for the request. </li>
-<li><strong>Efficient network calls:</strong> Retrofit ensures network operations are performed asynchronously, preventing them from blocking the main thread of your application. This keeps your UI responsive while data is being fetched.</li>
-<li><strong>Customization power:</strong> Retrofit offers extensive customization options. You can add converters to support different data formats, use interceptors to modify requests and responses, and leverage call adapters for integrating with reactive programming frameworks like RxJava or Coroutines.</li>
+<li><strong>Gson</strong>: com.squareup.retrofit2:converter-gson</li>
+<li><strong>Jackson</strong>: com.squareup.retrofit2:converter-jackson</li>
+<li><strong>Mosh</strong>: com.squareup.retrofit2:converter-moshi</li>
+<li><strong>Protobuf</strong>: com.squareup.retrofit2:converter-protobuf</li>
+<li><strong>Wire</strong>: com.squareup.retrofit2:converter-wire</li>
+<li><strong>Simple XML</strong>: com.squareup.retrofit2:converter-simplexml</li>
+<li><strong>JAXB</strong>: com.squareup.retrofit2:converter-jaxb</li>
+<li><strong>Scalars (primitives, boxed, and String)</strong>: com.squareup.retrofit2:converter-scalars</li>
 </ul>
-<h2 id="use-case">Use Case<a class="headerlink" href="#use-case" title="Permanent link">&para;</a></h2>
-<p>Here are some practical applications of Retrofit:</p>
-<ul>
-<li><strong>Fetching Data:</strong> Effortlessly fetch data from various REST APIs. This could include retrieving weather updates, news headlines, or social media posts. </li>
-<li><strong>Uploading Files:</strong>  Retrofit simplifies uploading files (like images or documents) to a server. You can define endpoints that accept file data and handle the upload process efficiently.</li>
-<li><strong>Authentication and Authorization:</strong> Implement robust authentication and authorization mechanisms for your app. Retrofit allows you to send credentials (e.g., username, password, access tokens) securely to the server for user validation.</li>
-<li><strong>Reactive Programming Integration:</strong>  Combine Retrofit with RxJava or Coroutines to create a reactive programming approach for handling asynchronous network operations. This leads to cleaner and more maintainable code.</li>
-</ul>
+<p>Here's an example of using the GsonConverterFactory class to generate an implementation of the GitHubService interface which uses Gson for its deserialization.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">Retrofit</span><span class="w"> </span><span class="n">retrofit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Retrofit</span><span class="p">.</span><span class="na">Builder</span><span class="p">()</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="p">.</span><span class="na">baseUrl</span><span class="p">(</span><span class="s">&quot;https://api.github.com/&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="p">.</span><span class="na">addConverterFactory</span><span class="p">(</span><span class="n">GsonConverterFactory</span><span class="p">.</span><span class="na">create</span><span class="p">())</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="p">.</span><span class="na">build</span><span class="p">();</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">GitHubService</span><span class="w"> </span><span class="n">service</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">retrofit</span><span class="p">.</span><span class="na">create</span><span class="p">(</span><span class="n">GitHubService</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+</code></pre></div>
+<h2 id="custom-converters">Custom Converters<a class="headerlink" href="#custom-converters" title="Permanent link">&para;</a></h2>
+<p>If you need to communicate with an API that uses a content-format that Retrofit does not support out of the box (e.g. YAML, txt, custom format) or you wish to use a different library to implement an existing format, you can easily create your own converter. </p>
+<p>Create a class that extends the Converter.Factory class and pass in an instance when building your adapter.</p>
 
 
 
@@ -762,10 +773,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["toc.integrate", "navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.dd8806f2.min.js"></script>
+      <script src="../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
     
   </body>
