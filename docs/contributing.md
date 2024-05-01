@@ -1,7 +1,4 @@
 
 If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request.
 
-When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible. Please also make sure your code compiles by running `./gradlew build` (or `gradlew.bat` build for Windows).
-
-
-Before your code can be accepted into the project you must also sign the [Individual Contributor License Agreement (CLA).](https://docs.google.com/forms/d/e/1FAIpQLSeRVQ35-gq2vdSxD1kdh7CJwRdjmUA0EZ9gRXaWYoUeKPZEQQ/viewform?formkey=dDViT2xzUHAwRkI3X3k5Z0lQM091OGc6MQ&ndplr=1)
+Ensure you follow the process in the [README.md]() file
