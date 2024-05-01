@@ -6,15 +6,22 @@ theme:
  icon:
   logo:
  features:
-   - toc.integrate
+  # - toc.integrate
    - navigation.tabs
+   - navigation.indexes
    - navigation.sections
-   - navigation.top
    - search.suggest
    - search.highlight
    - content.tabs.link
    - content.code.annotation
    - content.code.copy
+   - content.tooltips
+   - toc.follow
+   - navigation.top
+   - navigation.tracking
+   - navigation.footer
+   - search.share
+   - search.suggest
 
  plugins:
    - typeset
@@ -67,8 +74,7 @@ extra:
       link: https://www.linkedin.com/in/etugbo-judith-984545236
 
 nav:
-  - Home: 
-      - What is Retrofit: 'index.md'
+  - Home: 'index.md'
   - Getting Started: 
       - Requirement: 'requirement.md'
       - Setting Up Retrofit: 'setup.md'
