@@ -5,6 +5,9 @@ theme:
  favicon: material/server/network
  icon:
   logo:
+ font:
+  text: Roboto
+  code: Roboto Mono
  features:
    - navigation.tabs
    - navigation.indexes
