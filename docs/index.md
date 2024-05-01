@@ -1,5 +1,3 @@
-## What is Retrofit?
-
 Retrofit is a powerful type-safe HTTP client for Android and Java applications developed by Square. It simplifies communication with web APIs by providing a clean and intuitive way to interact with them. 
 
 ## Benefits of Retrofit:

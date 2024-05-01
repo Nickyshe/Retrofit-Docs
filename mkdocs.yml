@@ -6,9 +6,10 @@ theme:
  icon:
   logo:
  features:
+   - toc.integrate
+   - navigation.indexes
    - navigation.tabs
    - navigation.sections
-   - toc.integrate
    - navigation.top
    - search.suggest
    - search.highlight
@@ -66,3 +67,15 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/etugbo-judith-984545236
 
+nav:
+  - Home: 
+      - What is Retrofit: 'index.md'
+  - Getting Started: 
+      - Requirement: 'requirement.md'
+      - Setting Up Retrofit: 'setup.md'
+      - API Declaration with Annotation: 'api-declaration.md'
+      - Retrofit Configuration: 'retrofit-configuration.md'
+  - About: 
+    - Contributing: 'contributing.md'
+    - License: 'license.md'
+    
